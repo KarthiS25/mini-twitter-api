@@ -1,24 +1,23 @@
-# README
+# App configurations
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version: 3.3.1
 
-Things you may want to cover:
+* Rails version: 7.1.5.1
 
-* Ruby version
+* Postgresql version: 16.3
 
-* System dependencies
+* Version manger: RVM
 
-* Configuration
+* Connect the `database.yml` and `.env` file 
 
-* Database creation
+    Shared database.yml
 
-* Database initialization
+    Database file path - config/database.yml
 
-* How to run the test suite
+    ENV file path - .env
 
-* Services (job queues, cache servers, search engines, etc.)
+* Run the following commands for database creation
 
-* Deployment instructions
-
-* ...
+    - `rails db:create`
+    - `rails db:migrate`
+    - `rails db:seed` For create users and tweets
